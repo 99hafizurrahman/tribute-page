@@ -31,9 +31,10 @@ body {
 img {
   width: 100%;
   height: auto;
+  border-radius: 0.5em;
 }
 .container > * {
-	padding:5px;
+  padding: 5px;
   /* border: 2px solid seagreen; */
 }
 .wrapper {
@@ -84,15 +85,17 @@ img {
 header,
 footer {
   grid-column: 1/-1;
-	width:100%;
+  width: 100%;
   text-align: center;
   background-color: #1b1b2f;
   color: white;
   font-size: 1.1em;
 }
+footer {
+  margin-bottom: -50px;
+}
 
 .home {
- 
   text-align: center;
 }
 .about p {
